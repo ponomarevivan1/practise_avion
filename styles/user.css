@@ -1,0 +1,62 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container-form {
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    margin-left: 650px;
+}
+
+.registration-form {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.input-group-form {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2a254b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.if-not {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .container-form {
+        max-width: none;
+        width: calc(100% - 40px);
+        margin: 0 20px;
+    }
+}
