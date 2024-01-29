@@ -129,7 +129,7 @@ header > nav > ul > li > a:hover::before {
   border-bottom: 1px solid #4e4d93;
   margin: 0 0 25px 0;
 }
-@media (max-width:480px) {
+@media (max-width: 480px) {
   .container {
     width: auto;
     padding-left: 10px;
@@ -142,29 +142,29 @@ header > nav > ul > li > a:hover::before {
     padding-right: 10px;
   }
 
-  header>nav,
+  header > nav,
   .footer-form,
-  .footer>.container,
-  .footer>.container>.footer-top,
-  .footer>.container .footer-titles,
+  .footer > .container,
+  .footer > .container > .footer-top,
+  .footer > .container .footer-titles,
   .footer-form,
-  .footer-form>form,
-  .footer-form>form>button,
-  .footer-form>form>input,
+  .footer-form > form,
+  .footer-form > form > button,
+  .footer-form > form > input,
   .footer-form,
-  .footer-form>form,
-  .footer-form,
-  .footer-form,
+  .footer-form > form,
   .footer-form,
   .footer-form,
   .footer-form,
   .footer-form,
   .footer-form,
   .footer-form,
-  footer>.container,
-  footer>.container,
-  footer>.container,
-  footer>.container,
+  .footer-form,
+  .footer-form,
+  footer > .container,
+  footer > .container,
+  footer > .container,
+  footer > .container,
   footer,
   footer,
   footer,
